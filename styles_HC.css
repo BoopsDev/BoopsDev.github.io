@@ -45,6 +45,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-div {
-	color: blue !important;
+h1 {
+	color: red !important;
 }
