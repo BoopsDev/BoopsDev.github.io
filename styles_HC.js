@@ -6,7 +6,7 @@ initialisation();
 
 window.addEventListener('message', event => {
     // IMPORTANT: check the origin of the data! 
-    if (event.origin.startsWith('http://127.0.0.1:5500/index.html')) {
+    if (event.origin.startsWith('http://127.0.0.1:5500')) {
         // The data was sent from your site.
         // Data sent with postMessage is stored in event.data:
         console.log(event.data);
