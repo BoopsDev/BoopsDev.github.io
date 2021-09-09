@@ -1,5 +1,5 @@
 function initialisation() {
-    console.log("Test");
+    console.log("Test test 22");
 }
 
 initialisation();
