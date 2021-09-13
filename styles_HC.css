@@ -15,12 +15,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video, * {
+	font: inherit;
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 18px;
 	line-height: 1.4;
-	font: inherit;
 	font-family: pelago, sans-serif;
 }
 
@@ -63,12 +63,16 @@ a .btn, .btn-primary, .btn-red, .btn-red-hollows {
 	background-color: #0066CC;
 	border-color: #0066CC;
 }
-body{
+body, #loadMessage{
 	background-color: #F2F2F2;
 }
 section .home-products{
 	background: #E6E6E6;
 }
+.loader-quart::after{
+	border-color: #0066CC transparent transparent;
+}
+
 /*-----------------Nav----------------*/
 nav.navbar-default{
 	background-color: #fff;
