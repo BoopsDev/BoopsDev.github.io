@@ -14,34 +14,120 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, * {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 18px;
+	line-height: 1.4;
 	font: inherit;
-	vertical-align: baseline;
+	font-family: pelago, sans-serif;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+
+h1, h2, h3{
+	color: #4d4d4d;
+	line-height: 1.2;
+}
+h1 {
+	font-size: 36px;
+	font-weight: 900;
+}
+h2 {
+	font-size: 30px;
+	font-weight: 600;
+}
+h3 {
+	font-size: 24px;
+	font-weight: 600;
+}
+h4 {
+	font-size: 20px;
+	font-weight: 900;
+	color: #0066CC;
+}
+h5 {
+	font-size: 18px;
+	font-weight: 400;
+}
+h6 {
+	font-size: 16px;
+	font-weight: 400;
+}
+a .btn, .btn-primary, .btn-red, .btn-red-hollows {
+	background-color: #0066CC;
+	border-color: #0066CC;
+}
+body{
+	background-color: #F2F2F2;
+}
+section .home-products{
+	background: #E6E6E6;
+}
+/*-----------------Nav----------------*/
+nav.navbar-default{
+	background-color: #fff;
+}
+.navbar-default .nav-menu > li > a, .navbar-default .nav-menu .open>a {
+	color: #4D4D4D;
+}
+.navbar-default .nav-menu > li > a:active, .navbar-default .nav-menu > li > a:focus, .navbar-default .nav-menu > li > a:hover, .navbar-default .nav-menu .open > a:active, .navbar-default .nav-menu .open > a:focus, .navbar-default .nav-menu .open > a:hover{
+	color: #0066CC;
+	transform: scale(120%);
+	font-weight: 900;
+}
+.headerlite.navbar-default.navbar2 .navbar-right.navbar-nav{
+	background-color: #4d4d4d;
+}
+
+
+
+/*-----------------Page d'accueil----------------*/
+.slider{
+	background: none;
+}
+.slider-text p { /*description courte AC*/
+	font-size: 24px;
+	line-height: 1.4;
+}
+.checkbox.wishlist .save-wishlist span{
+	background: none !important;
+}
+
+.checkbox.wishlist .save-wishlist .ng-empty~span:before {
+    content: "\f004";  /* this is your text. You can also use UTF-8 character codes as I do here */
+    font-family: FontAwesome;
+    position:absolute;
+	font-size: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+	border: 1px solid #0066CC;
+	background-color: #0066CC;
+	border-radius: 50%;
+	padding: 10px;
+}
+.checkbox.wishlist .save-wishlist .ng-not-empty~span:before{
+	content: "\f00c";
+    font-family: FontAwesome;
+    position:absolute;
+	font-size: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+	border: 1px solid #0066CC;
+	background-color: #0066CC;
+	border-radius: 50%;
+	padding: 10px;
+}
+.carousel-indicators li.active {
+	border-color : #0066CC;
+}
+.carousel-indicators li.active:before {
+    background-color: #0066CC;
 }
