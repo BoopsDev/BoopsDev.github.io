@@ -80,6 +80,9 @@ section .home-products{
 nav.navbar-default{
 	background-color: #fff;
 }
+nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav.navbar-default.navbar2 .navbar-right > li > a {
+	font-size: 1em !important;
+}
 .navbar-default .nav-menu li.open > a{
 	color: #0066CC !important;
 	transform: scale(120%);
