@@ -18,7 +18,7 @@ if (!document.getElementById(cssId)) {
 
 
 function num() {
-    $("home-products-item:nth-child(4n+1)").addClass("section1-2");
+    $("home-products-item").addClass("section1-2");
     console.log("num test");
 }
 
