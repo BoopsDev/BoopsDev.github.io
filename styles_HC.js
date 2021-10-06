@@ -20,7 +20,9 @@ var sectionNum = document.getElementsByClassName("home-products-content"),
     itemNum = document.getElementsByClassName("home-products-item");
 
 function bla() {
-    sectionNum.chilldren.addClass("section1-2");
+    for (var i = 0; i < itemNum.length; i++) {
+        itemNum[i].addClass("section1-2");
+    }
     console.log("num test");
 };
 
