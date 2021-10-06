@@ -19,7 +19,7 @@ if (!document.getElementById(cssId)) {
 var sectionNum = document.getElementById('products'),
     itemNum = document.getElementsByClassName("home-products-item");
 
-sectionNum.addEventListener("load", bla);
+sectionNum.onload = bla();
 
 function bla() {
     for (var i = 0; i < itemNum.length; i++) {
