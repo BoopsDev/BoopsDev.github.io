@@ -25,5 +25,3 @@ sectionNum.onload = function () {
     }
     console.log(itemNum.length);
 };
-
-bla();
