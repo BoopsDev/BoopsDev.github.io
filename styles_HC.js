@@ -16,10 +16,8 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 }
 
-//var sectionNum = $(.home-products-item)
-function num() {
+var sectionNum = $("div.home-products-content");
+sectionNum.onload = function () {
     $("div.home-products-content").children.addClass("section1-2");
     console.log("num test");
-}
-
-num();
+};
