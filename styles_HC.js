@@ -23,7 +23,7 @@ function bla() {
     for (var i = 0; i < itemNum.length; i++) {
         itemNum[i].addClass("section1-2");
     }
-    console.log("num test");
+    console.log(itemNum.length);
 };
 
 bla();
