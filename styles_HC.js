@@ -18,7 +18,7 @@ if (!document.getElementById(cssId)) {
 
 //var sectionNum = $(.home-products-item)
 function num() {
-    $(".home-products-item").addClass("section1-2");
+    $("div.home-products-content").children.addClass("section1-2");
     console.log("num test");
 }
 
