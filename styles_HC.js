@@ -16,7 +16,7 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 }
 
-var sectionNum = $('div#products'),
+var sectionNum = document.getElementById('products'),
     itemNum = document.getElementsByClassName("home-products-item");
 
 sectionNum.addEventListener("load", bla);
