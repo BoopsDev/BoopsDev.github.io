@@ -19,7 +19,9 @@ if (!document.getElementById(cssId)) {
 var sectionNum = document.getElementsByClassName("home-products-content"),
     itemNum = document.getElementsByClassName("home-products-item");
 
-sectionNum.onload = function () {
+function bla() {
     itemNum.addClass("section1-2");
     console.log("num test");
 };
+
+bla();
