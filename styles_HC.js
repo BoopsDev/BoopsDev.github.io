@@ -18,8 +18,7 @@ if (!document.getElementById(cssId)) {
 
 
 function num() {
-    var section = $("home-products-item:nth-child(4n+1)");
-    section.addClass("section1-2");
+    $("home-products-item:nth-child(4n+1)").addClass("section1-2");
     console.log("num test");
 }
 
