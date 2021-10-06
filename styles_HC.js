@@ -15,3 +15,12 @@ if (!document.getElementById(cssId)) {
     link.media = 'all';
     head.appendChild(link);
 }
+
+
+function num() {
+    var section = $("home-products-item:nth-child(4n+1)");
+    section.addClass("section1-2");
+    console.log("num test");
+}
+
+num();
