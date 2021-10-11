@@ -27,7 +27,7 @@ function init() {
     console.log(itemNum.length);
 };
 
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('loaded', init);
 
 /*window.addEventListener('load', (event) => {
     let logo = document.querySelector('#home-products');
