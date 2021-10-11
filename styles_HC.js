@@ -33,5 +33,5 @@ function init() {
 if (document.addEventListener) {
     var listen = document.addEventListener("sectionNum", init);
     listen;
-    console.log(listen.innerHTML);
+    console.log(listen);
 };
