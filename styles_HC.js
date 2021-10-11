@@ -16,8 +16,8 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 };
 
-var sectionNum = document.getElementById('home-products'),
-    itemNum = document.getElementsByClassName("home-products-item");
+let sectionNum = document.querySelector('#home-products');
+var itemNum = document.getElementsByClassName("home-products-item");
 
 /*document.body.onload = function () {
 
@@ -30,8 +30,7 @@ function init() {
     console.log(itemNum.length);
 };
 
-if (document.addEventListener) {
-    document.addEventListener("load", init);
-
-    console.log("rfazfa");
-};
+logo.addEventListener('load', (event) => {
+    init();
+    console.log('evzevze')
+});
