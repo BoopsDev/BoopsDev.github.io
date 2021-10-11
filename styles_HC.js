@@ -35,8 +35,11 @@ sectionNum.addEventListener('load', (event) => {
     console.log('evzkmevze')
 });*/
 
-let logo = document.querySelector('#home-products');
+window.addEventListener('load'() => {
+    let logo = document.querySelector('#home-products');
 
-logo.addEventListener('load', (event) => {
-    console.log('Logo has been loaded!');
+    logo.addEventListener('load', (event) => {
+        console.log('Logo has been loaded!');
+    });
+    console.log('Logo !');
 });
