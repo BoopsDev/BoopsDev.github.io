@@ -16,18 +16,18 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 };
 
-let sectionNum = document.querySelector('#home-products');
+//let sectionNum = document.querySelector('#home-products');
 var itemNum = document.getElementsByClassName("home-products-item");
 
-function init() {
+$("#home-products").load(function () {//function init() {
     alert('evzkmevze');
     /*for (var i = 0; i < itemNum.length; i++) {
         itemNum[i].addClass("section1-2");
     }*/
     console.log(itemNum.length);
-};
+});
 
-document.addEventListener('loaded', init);
+//document.addEventListener('loaded', init);
 
 /*window.addEventListener('load', (event) => {
     let logo = document.querySelector('#home-products');
