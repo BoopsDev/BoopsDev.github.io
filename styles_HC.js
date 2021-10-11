@@ -32,5 +32,5 @@ function init() {
 
 sectionNum.addEventListener('load', (event) => {
     init();
-    console.log('evzevze')
+    console.log('evzkmevze')
 });
