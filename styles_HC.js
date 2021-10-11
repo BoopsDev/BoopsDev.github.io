@@ -31,6 +31,6 @@ function init() {
 };
 
 if (document.addEventListener) {
-    document.addEventListener("HTMLElement", init);
-    console.log(HTMLElement);
+    document.addEventListener("sectionNum", init);
+    console.log(sectionNum);
 };
