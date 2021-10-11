@@ -19,13 +19,17 @@ if (!document.getElementById(cssId)) {
 //let sectionNum = document.querySelector('#home-products');
 var itemNum = document.getElementsByClassName("home-products-item");
 
-$("#home-products").load(function () {//function init() {
-    alert('evzkmevze');
-    /*for (var i = 0; i < itemNum.length; i++) {
-        itemNum[i].addClass("section1-2");
-    }*/
-    console.log(itemNum.length);
-});
+window.onload = function () {
+    alert("LOADED!");
+    $("#home-products").load(function () {//function init() {
+        alert('evzkmevze');
+        /*for (var i = 0; i < itemNum.length; i++) {
+            itemNum[i].addClass("section1-2");
+        }*/
+        console.log(itemNum.length);
+    });
+};
+
 
 //document.addEventListener('loaded', init);
 
