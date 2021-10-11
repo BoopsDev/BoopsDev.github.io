@@ -16,14 +16,3 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 }
 
-var sectionNum = document.getElementById('products'),
-    itemNum = document.getElementsByClassName("home-products-item");
-
-sectionNum.onload = bla();
-
-function bla() {
-    for (var i = 0; i < itemNum.length; i++) {
-        itemNum[i].addClass("section1-2");
-    }
-    console.log(itemNum.length);
-};
