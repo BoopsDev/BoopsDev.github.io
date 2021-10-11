@@ -21,10 +21,10 @@ var itemNum = document.getElementsByClassName("home-products-item");
 
 function init() {
     alert('evzkmevze');
-    for (var i = 0; i < itemNum.length; i++) {
+    /*for (var i = 0; i < itemNum.length; i++) {
         itemNum[i].addClass("section1-2");
     }
-    console.log(itemNum.length);
+    console.log(itemNum.length);*/
 };
 
 document.addEventListener('Element', init);
