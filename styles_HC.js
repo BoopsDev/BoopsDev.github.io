@@ -30,7 +30,7 @@ function init() {
     console.log(itemNum.length);
 };
 
-logo.addEventListener('load', (event) => {
+sectionNum.addEventListener('load', (event) => {
     init();
     console.log('evzevze')
 });
