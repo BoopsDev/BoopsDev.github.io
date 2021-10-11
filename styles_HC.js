@@ -19,9 +19,7 @@ if (!document.getElementById(cssId)) {
 var sectionNum = document.getElementById('products'),
     itemNum = document.getElementsByClassName("home-products-item");
 
-document.body.onload = bla();
-
-function bla() {
+document.body.onload = function () {
     for (var i = 0; i < itemNum.length; i++) {
         itemNum[i].addClass("section1-2");
     }
