@@ -16,30 +16,24 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 };
 
-/*let sectionNum = document.querySelector('#home-products');
+let sectionNum = document.querySelector('#home-products');
 var itemNum = document.getElementsByClassName("home-products-item");
 
-document.body.onload = function () {
-
-};
-
 function init() {
+    alert('evzkmevze');
     for (var i = 0; i < itemNum.length; i++) {
         itemNum[i].addClass("section1-2");
     }
     console.log(itemNum.length);
 };
 
-sectionNum.addEventListener('load', (event) => {
-    init();
-    console.log('evzkmevze')
-});*/
+document.addEventListener('DOMContentLoaded', init);
 
-window.addEventListener('load', (event) => {
+/*window.addEventListener('load', (event) => {
     let logo = document.querySelector('#home-products');
 
     logo.addEventListener('load', (event) => {
         console.log('Logo has been loaded!');
         alert('evzkmevze');
     });
-});
+});*/
