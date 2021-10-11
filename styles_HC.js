@@ -32,4 +32,5 @@ function init() {
 
 if (document.addEventListener) {
     document.addEventListener("Document", init);
+    console.log("init");
 };
