@@ -23,8 +23,8 @@ function init() {
     alert('evzkmevze');
     /*for (var i = 0; i < itemNum.length; i++) {
         itemNum[i].addClass("section1-2");
-    }
-    console.log(itemNum.length);*/
+    }*/
+    console.log(itemNum.length);
 };
 
 document.addEventListener('Load', init);
