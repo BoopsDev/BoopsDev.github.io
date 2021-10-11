@@ -1,8 +1,8 @@
-function initialisation() {
+/*function initialisation() {
     console.log("Test test");
 }
 
-initialisation();
+initialisation();*/
 
 var cssId = 'myCss';  // you could encode the css path itself to generate id..
 if (!document.getElementById(cssId)) {
@@ -31,6 +31,6 @@ function init() {
 };
 
 if (document.addEventListener) {
-    document.addEventListener("Document", init);
+    document.addEventListener("HTMLElement", init);
     console.log("init");
 };
