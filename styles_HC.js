@@ -19,9 +19,17 @@ if (!document.getElementById(cssId)) {
 var sectionNum = document.getElementById('products'),
     itemNum = document.getElementsByClassName("home-products-item");
 
-document.body.onload = function () {
+/*document.body.onload = function () {
+
+};*/
+
+function init() {
     for (var i = 0; i < itemNum.length; i++) {
         itemNum[i].addClass("section1-2");
     }
     console.log(itemNum.length);
+};
+
+if (document.addEventListener) {
+    document.addEventListener("DOMContentLoaded", init, false);
 };
