@@ -31,7 +31,7 @@ function init() {
 };
 
 if (document.addEventListener) {
-    var listen = document.addEventListener("sectionNum", init);
+    var listen = document.addEventListener(sectionNum, init);
     listen;
-    console.log(listen);
+    console.log(listen.value);
 };
