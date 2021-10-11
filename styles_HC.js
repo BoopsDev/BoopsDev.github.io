@@ -32,5 +32,5 @@ function init() {
 
 if (document.addEventListener) {
     document.addEventListener("HTMLElement", init);
-    console.log("init");
+    console.log(HTMLElement);
 };
