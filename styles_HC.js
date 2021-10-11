@@ -14,7 +14,7 @@ if (!document.getElementById(cssId)) {
     link.href = 'http://127.0.0.1:5500/styles_HC.css';
     link.media = 'all';
     head.appendChild(link);
-}
+};
 
 var sectionNum = document.getElementById('products'),
     itemNum = document.getElementsByClassName("home-products-item");
