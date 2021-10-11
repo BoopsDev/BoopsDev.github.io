@@ -16,7 +16,7 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 };
 
-var sectionNum = document.getElementById('products'),
+var sectionNum = document.getElementById('home-products'),
     itemNum = document.getElementsByClassName("home-products-item");
 
 /*document.body.onload = function () {
