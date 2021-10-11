@@ -38,9 +38,9 @@ sectionNum.addEventListener('load', (event) => {
 window.addEventListener('load', (event) => {
     console.log('Logo !');
 
-    let logo = document.querySelector('#home-products');
+    /*let logo = document.querySelector('#home-products');
 
     logo.addEventListener('load', (event) => {
         console.log('Logo has been loaded!');
-    });
+    });*/
 });
