@@ -31,5 +31,5 @@ function init() {
 };
 
 if (document.addEventListener) {
-    document.addEventListener("DOMContentLoaded", init, false);
+    document.addEventListener("XMLHttpRequest", init);
 };
