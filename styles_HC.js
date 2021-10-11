@@ -31,7 +31,7 @@ function init() {
 };
 
 if (document.addEventListener) {
-    document.addEventListener(sectionNum, init);
+    document.addEventListener("load", init);
 
     console.log("rfazfa");
 };
