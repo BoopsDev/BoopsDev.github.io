@@ -35,7 +35,7 @@ sectionNum.addEventListener('load', (event) => {
     console.log('evzkmevze')
 });*/
 
-window.addEventListener('load'() => {
+window.addEventListener('load', (event) => {
     let logo = document.querySelector('#home-products');
 
     logo.addEventListener('load', (event) => {
