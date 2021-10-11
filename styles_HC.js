@@ -36,7 +36,7 @@ sectionNum.addEventListener('load', (event) => {
 });*/
 
 window.addEventListener('load', (event) => {
-    console.log('evzkmevze');
+    alert('evzkmevze');
 
     /*let logo = document.querySelector('#home-products');
 
