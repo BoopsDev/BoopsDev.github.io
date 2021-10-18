@@ -33,7 +33,7 @@ if (!document.getElementById(cssId)) {
 
 //document.getElementById("home-products").onload = function () { myFunction() };
 
-$("#home-products").on("load", function () {
+$("#home-products").on("change", function () {
     var products = $('.home-products-item');
     console.log("rc");
 });
