@@ -32,15 +32,14 @@ if (!document.getElementById(cssId)) {
 });*/
 
 //document.getElementById("home-products").onload = function () { myFunction() };
-var loadMessage = $('#loadMessage');
-
-window.addEventListener('load', (event) => {
-    if (loadMessage.css("display", "none")) {
-        console.log("rezgf" + loadMessage.css("display"));
-    };
-});
+var loadMessage = $('#loadMessage'),
+    products = $('.home-products-item');
 
 function myFunction() {
-    var products = $('#home-products .home-products-item');
     console.log(products.length)
+};
+myFunction();
+
+while (products.length = 0) {
+    myFunction();
 };
