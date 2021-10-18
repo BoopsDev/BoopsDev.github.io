@@ -16,11 +16,14 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 };
 
-const selectElement = document.querySelector('.home-products-item');
+var sectionNum = document.querySelector('#home-products'),
+    itemNum = document.querySelector(".home-products-item"),
+    loadProducts = "onload='myScript'";
 
-selectElement.addEventListener('change', (event) => {
-    console.log(selectElement.length)
-});
+window.onload = function () {
+    sectionNum.innerHTML = loadProducts;
+    console.log('evzkmevze');
+};
 
 
 //document.addEventListener('loaded', init);
