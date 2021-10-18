@@ -31,9 +31,10 @@ if (!document.getElementById(cssId)) {
     });
 });*/
 
-var products = $('#home-products .home-products-item');
+var products = $('.home-products-item'),
+    LoadProducts = $('#home-products');
 
-document.addEventListener("DOMContentLoaded", function () {
+LoadProducts.addEventListener('load', function () {
     var products = $('#home-products .home-products-item');
     console.log(products.length)
 });
