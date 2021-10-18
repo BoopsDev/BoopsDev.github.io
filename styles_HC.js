@@ -16,9 +16,9 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 };
 
-window.onload = function () {
-    $('#home-products .home-products-item:nth-child(odd)').addClass('.section1-2')
-};
+/*window.onload = function () {
+    $('#home-products .home-products-item:nth-child(odd)').addClass('.section1-2');
+};*/
 
 //document.addEventListener('loaded', init);
 
