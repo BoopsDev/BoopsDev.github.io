@@ -36,7 +36,7 @@ var loadMessage = $('#loadMessage');
 
 window.addEventListener('load', (event) => {
     if (loadMessage.css("display", "none")) {
-        vconsole.log(loadMessage.css("display"));
+        console.log(loadMessage.css("display"));
     };
 });
 
