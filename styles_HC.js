@@ -18,10 +18,10 @@ if (!document.getElementById(cssId)) {
 
 var sectionNum = document.querySelector('#home-products'),
     itemNum = document.querySelector(".home-products-item"),
-    loadProducts = "onload='myScript'";
+    loadProducts = "onload='test'";
 
 window.onload = function () {
-    sectionNum.setAttribute("onload", "test");
+    sectionNum.attributes = loadProducts;
 };
 function test() {
     console.log('evzkmevze');
