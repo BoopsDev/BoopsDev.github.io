@@ -40,7 +40,7 @@ function myFunction() {
 };
 myFunction();
 
-while (products.length == '0') {
+while (products.length == '') {
     myFunction();
     console.log('fzvdse')
 };
