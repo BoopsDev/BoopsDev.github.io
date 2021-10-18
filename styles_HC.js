@@ -21,12 +21,12 @@ var itemNum = document.getElementsByClassName("home-products-item");
 
 window.onload = function () {
     alert("LOADED!");
-    $("#home-products").load(function () {//function init() {
+    $("#products").load(function () {//function init() {
         alert('evzkmevze');
         /*for (var i = 0; i < itemNum.length; i++) {
             itemNum[i].addClass("section1-2");
         }*/
-        console.log(itemNum.length);
+        console.log('evzkmevze');
     });
 };
 
