@@ -35,7 +35,7 @@ if (!document.getElementById(cssId)) {
 
 $("#home-products").on("load", function () {
     var products = $('.home-products-item');
-    console.log(products.length);
+    console.log("rc");
 });
 
 
