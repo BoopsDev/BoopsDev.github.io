@@ -31,9 +31,14 @@ if (!document.getElementById(cssId)) {
     });
 });*/
 
-document.getElementById("the-products").onload = function () { myFunction() };
+//document.getElementById("home-products").onload = function () { myFunction() };
+var loadMessage = $('#loadMessage');
+
+if (loadMessage.css("display").value = "none") {
+    console.log('de');
+};
 
 function myFunction() {
-    var products = $('.home-products-item');
+    var products = $('#home-products .home-products-item');
     console.log(products.length)
 };
