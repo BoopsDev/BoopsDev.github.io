@@ -30,3 +30,10 @@ if (!document.getElementById(cssId)) {
         alert('evzkmevze');
     });
 });*/
+
+var products = $('#home-products .home-products-item');
+
+document.addEventListener("DOMContentLoaded", function () {
+    var products = $('#home-products .home-products-item');
+    console.log(products.length)
+});
