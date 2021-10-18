@@ -33,7 +33,21 @@ if (!document.getElementById(cssId)) {
 
 //document.getElementById("home-products").onload = function () { myFunction() };
 
-$(".home-products-item").load(function () {
+$("#home-products").on("load", function () {
     var products = $('.home-products-item');
     console.log(products.length);
 });
+
+
+/*$(document).ready(function(){
+    $.ajax({
+        //L'URL de la requête
+        url: "une/url/au/choix",
+
+        //La méthode d'envoi (type de requête)
+        method: "GET",
+
+        //Le format de réponse attendu
+        dataType : "json",
+    })
+});*/
