@@ -17,7 +17,7 @@ if (!document.getElementById(cssId)) {
 };
 
 window.onload = function () {
-    $('#home-products .home-products-item:nth-child(odd)').addClass('.section1-2');
+    $('#home-products .home-products-item:nth-child(odd)').addClass('.section1-2')
 };
 
 //document.addEventListener('loaded', init);
