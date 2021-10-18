@@ -21,10 +21,11 @@ var sectionNum = document.querySelector('#home-products'),
     loadProducts = "onload='myScript'";
 
 window.onload = function () {
-    sectionNum.innerHTML = loadProducts;
+    sectionNum.setAttribute("onload", "test");
+};
+function test() {
     console.log('evzkmevze');
 };
-
 
 //document.addEventListener('loaded', init);
 
