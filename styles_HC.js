@@ -36,11 +36,12 @@ var loadMessage = $('#loadMessage'),
     products = $('.home-products-item');
 
 function myFunction() {
-    console.log(products.length)
+    if (products.length != '0') {
+        console.log(products.length)
+    }
 };
 myFunction();
 
-while (products.length == '') {
+while (products.length == '0') {
     myFunction();
-    console.log('fzvdse')
 };
