@@ -35,7 +35,7 @@ if (!document.getElementById(cssId)) {
 var loadMessage = $('#loadMessage');
 
 if (loadMessage.css("display", "none")) {
-    console.log('de');
+    console.log('deh');
 };
 
 function myFunction() {
