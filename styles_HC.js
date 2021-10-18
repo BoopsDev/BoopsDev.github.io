@@ -34,7 +34,7 @@ if (!document.getElementById(cssId)) {
 //document.getElementById("home-products").onload = function () { myFunction() };
 var loadMessage = $('#loadMessage');
 
-if (loadMessage.css("display").value = "none") {
+if (loadMessage.css("display", "none")) {
     console.log('de');
 };
 
