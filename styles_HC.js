@@ -34,9 +34,11 @@ if (!document.getElementById(cssId)) {
 //document.getElementById("home-products").onload = function () { myFunction() };
 var loadMessage = $('#loadMessage');
 
-if (loadMessage.css("display", "none")) {
-    console.log('deh');
-};
+window.addEventListener('load', (event) => {
+    if (loadMessage.css("display", "none")) {
+        console.log(loadMessage.css("display"));
+    };
+});
 
 function myFunction() {
     var products = $('#home-products .home-products-item');
