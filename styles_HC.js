@@ -41,6 +41,6 @@ function myFunction() {
     }
 };
 
-$("#home-products").load(function () {
+$(document).ready(function () {
     console.log(products.length)
 });
