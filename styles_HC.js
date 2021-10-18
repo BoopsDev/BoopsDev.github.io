@@ -31,7 +31,9 @@ if (!document.getElementById(cssId)) {
     });
 });*/
 
-document.getElementById("home-products").onLoad = function () {
+document.getElementById("home-products").onload = function () { myFunction() };
+
+function myFunction() {
     var products = $('#home-products .home-products-item');
     console.log(products.length)
 };
