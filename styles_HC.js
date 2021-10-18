@@ -31,7 +31,7 @@ if (!document.getElementById(cssId)) {
     });
 });*/
 
-document.getElementById("home-products").onload = function () { myFunction() };
+document.getElementById("the-products").onload = function () { myFunction() };
 
 function myFunction() {
     var products = $('#home-products .home-products-item');
