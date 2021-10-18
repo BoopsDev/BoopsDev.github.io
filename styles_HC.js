@@ -42,4 +42,5 @@ myFunction();
 
 while (products.length = 0) {
     myFunction();
+    console.log('fze')
 };
