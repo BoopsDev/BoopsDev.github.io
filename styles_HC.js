@@ -32,15 +32,8 @@ if (!document.getElementById(cssId)) {
 });*/
 
 //document.getElementById("home-products").onload = function () { myFunction() };
-var loadMessage = $('#loadMessage'),
-    products = $('.home-products-item');
-
-function myFunction() {
-    if (products.length != '0') {
-        console.log(products.length)
-    }
-};
 
 $(".home-products-item").ready(function () {
+    var products = $('.home-products-item');
     console.log(products.length);
 });
