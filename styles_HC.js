@@ -16,15 +16,8 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 };
 
-var sectionNum = document.querySelector('#home-products'),
-    itemNum = document.querySelector(".home-products-item"),
-    loadProducts = "onload='test'";
-
 window.onload = function () {
-    sectionNum.attributes = loadProducts;
-};
-function test() {
-    console.log('evzkmevze');
+    $('#home-products .home-products-item:nth-child(odd)').addClass('.section1-2');
 };
 
 //document.addEventListener('loaded', init);
