@@ -34,6 +34,6 @@ if (!document.getElementById(cssId)) {
 document.getElementById("the-products").onload = function () { myFunction() };
 
 function myFunction() {
-    var products = $('#home-products .home-products-item');
+    var products = $('.home-products-item');
     console.log(products.length)
 };
