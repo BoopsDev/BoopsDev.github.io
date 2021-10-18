@@ -31,10 +31,7 @@ if (!document.getElementById(cssId)) {
     });
 });*/
 
-var products = $('.home-products-item'),
-    LoadProducts = $('#home-products');
-
-LoadProducts.addEventListener('load', function () {
+document.getElementById("home-products").onLoad = function () {
     var products = $('#home-products .home-products-item');
     console.log(products.length)
-});
+};
