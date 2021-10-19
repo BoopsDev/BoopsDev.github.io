@@ -40,7 +40,7 @@ $("#home-products").on("change", function () {
 
 $(document).ready(function () {
     var x = $("div#products").position();
-    console.log(x.value);
+    console.log(x);
 });
 /*$(document).ready(function(){
     $.ajax({
