@@ -38,9 +38,9 @@ $("#home-products").on("change", function () {
     console.log("rc");
 });
 
-var position = $('.home-products-item:nth-child(8n+5)::after'),
-    left = position.position();
-console.log(left.left);
+var x = $('.home-products-item:nth-child(8n+5)::after'),
+    y = x.position();
+console.log(y.left);
 /*$(document).ready(function(){
     $.ajax({
         //L'URL de la requête
