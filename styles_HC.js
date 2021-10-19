@@ -39,8 +39,8 @@ $("#home-products").on("change", function () {
 });
 
 $(document).ready(function () {
-    var x = $("#products").position();
-    console.log("Top position: " + x.top + " Left position: " + x.left);
+    var x = $("div#products").position();
+    console.log(x.value);
 });
 /*$(document).ready(function(){
     $.ajax({
