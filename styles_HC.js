@@ -39,7 +39,7 @@ $("#home-products").on("change", function () {
 });
 
 $(document).ready(function () {
-    var x = $(".home-products-item:nth-child(8n+5)::after").position();
+    var x = $("#products").position();
     console.log("Top position: " + x.top + " Left position: " + x.left);
 });
 /*$(document).ready(function(){
