@@ -40,7 +40,7 @@ $("#home-products").on("change", function () {
 
 $(document).ready(function () {
     var x = $("div#products").offset();
-    console.log(x);
+    console.log(x.value);
 });
 /*$(document).ready(function(){
     $.ajax({
