@@ -40,7 +40,7 @@ $("#home-products").on("change", function () {
 
 var x = $('.home-products-item:nth-child(8n+5)::after'),
     y = x.position();
-console.log(y.left);
+console.log(y);
 /*$(document).ready(function(){
     $.ajax({
         //L'URL de la requête
