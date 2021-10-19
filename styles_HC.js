@@ -38,9 +38,10 @@ $("#home-products").on("change", function () {
     console.log("rc");
 });
 
-var x = $('.home-products-item:nth-child(8n+5)::after'),
-    y = x.position();
-console.log(y);
+$(document).ready(function () {
+    var x = $(".home-products-item:nth-child(8n+5)::after").position();
+    console.log("Top position: " + x.top + " Left position: " + x.left);
+});
 /*$(document).ready(function(){
     $.ajax({
         //L'URL de la requête
