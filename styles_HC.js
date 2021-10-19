@@ -38,7 +38,8 @@ $("#home-products").on("change", function () {
     console.log("rc");
 });
 
-
+var position = $('.home-products-item:nth-child(8n+5)::after');
+console.log(position.css('left'))
 /*$(document).ready(function(){
     $.ajax({
         //L'URL de la requête
