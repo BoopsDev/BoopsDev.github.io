@@ -53,14 +53,14 @@ const observer = new MutationObserver(callback);
 observer.observe(targetNode, config);
 
 
-$(document).on('DOMNodeInserted', function (e) {
+/*$(document).on('DOMNodeInserted', function (e) {
     var test = $('.home-products-item');
     console.log(test.length + " daz");
     if (e.target.id == "products") {
         //console.log(divPoss.scrollLeft);
         console.log(test.length);
     }
-});
+});*/
 
 /*$(document).ready(function(){
     $.ajax({
