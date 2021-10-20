@@ -38,12 +38,14 @@ $("#home-products").on("change", function () {
     console.log("rc");
 });
 
-var divPoss = document.getElementById("products");
+var divPoss = document.getElementById("products"),
+    test = $('.home-products-item');
 
 $(document).on('DOMNodeInserted', function (e) {
+    console.log(test.length + " daz");
     if (e.target.id == "products") {
         //console.log(divPoss.scrollLeft);
-        console.log($('.home-products-item').length);
+        console.log(test.length);
     }
 });
 
