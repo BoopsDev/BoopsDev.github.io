@@ -35,7 +35,7 @@ if (!document.getElementById(cssId)) {
 //var divPoss = document.getElementById("products");
 
 // Select the node that will be observed for mutations
-const targetNode = document.getElementById('products');
+const targetNode = document.getElementById('products')[0];
 
 // Options for the observer (which mutations to observe)
 const config = { attributes: true, childList: true, subtree: true };
