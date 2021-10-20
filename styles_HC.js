@@ -40,9 +40,12 @@ $("#home-products").on("change", function () {
 
 var divPoss = document.getElementById("products");
 
-divPoss.onload = function () {
-    console.log(divPoss.scrollLeft);
-};
+$(document).on('DOMNodeInserted', function (e) {
+    if (e.target.id == "products") {
+        console.log(divPoss.scrollLeft);
+        console.log($('.home-products-item').length);
+    }
+});
 
 /*$(document).ready(function(){
     $.ajax({
