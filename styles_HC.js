@@ -33,15 +33,25 @@ if (!document.getElementById(cssId)) {
 
 //
 
-$("#home-products").on("change", function () {
-    var products = $('.home-products-item');
-    console.log("rc");
-});
+var divPoss = document.getElementById("products");
 
-var divPoss = document.getElementById("products"),
-    test = $('.home-products-item');
+const targetNode = document.getElementById('products'),
+    config = { attributes: true, childList: true, subtree: true };
+
+const callback = function (mutationsList, observer) {
+    for (const mutation of mutationsList) {
+        if (mutation.type === 'childList') {
+            console.log('A child node has been added or removed.');
+        }
+        else if (mutation.type === 'attributes') {
+            console.log('The ' + mutation.attributeName + ' attribute was modified.');
+        }
+    }
+};
+
 
 $(document).on('DOMNodeInserted', function (e) {
+    var test = $('.home-products-item');
     console.log(test.length + " daz");
     if (e.target.id == "products") {
         //console.log(divPoss.scrollLeft);
