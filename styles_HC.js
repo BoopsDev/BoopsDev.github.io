@@ -31,7 +31,7 @@ if (!document.getElementById(cssId)) {
     });
 });*/
 
-//document.getElementById("home-products").onload = function () { myFunction() };
+//
 
 $("#home-products").on("change", function () {
     var products = $('.home-products-item');
@@ -40,9 +40,10 @@ $("#home-products").on("change", function () {
 
 var divPoss = document.getElementById("products");
 
-$(window).bind("load", function () {
+divPoss.onload = function () {
     console.log(divPoss.scrollLeft);
-});
+};
+
 /*$(document).ready(function(){
     $.ajax({
         //L'URL de la requête
