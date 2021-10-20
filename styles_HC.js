@@ -39,7 +39,7 @@ $("#home-products").on("change", function () {
 });
 
 $(document).ready(function () {
-    var divPoss = document.getElementById("products").pageXOffset;
+    var divPoss = document.getElementById("products").scrollLeft;
     console.log(divPoss);
 });
 /*$(document).ready(function(){
