@@ -40,7 +40,7 @@ $("#home-products").on("change", function () {
 
 var divPoss = document.getElementById("products");
 
-$(document).ready(function () {
+$(window).bind("load", function () {
     console.log(divPoss.scrollLeft);
 });
 /*$(document).ready(function(){
