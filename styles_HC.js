@@ -38,9 +38,10 @@ $("#home-products").on("change", function () {
     console.log("rc");
 });
 
+var divPoss = document.getElementById("products");
+
 $(document).ready(function () {
-    var divPoss = document.getElementById("products").scrollLeft;
-    console.log(divPoss);
+    console.log(divPoss.scrollLeft);
 });
 /*$(document).ready(function(){
     $.ajax({
