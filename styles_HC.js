@@ -20,7 +20,7 @@ var linkProducts = $("#details-slider a");
 
 $(document).ready(function () {
     linkProducts.on("click", function () {
-        console.log($(this).text());
+        console.log('daze');
     });
 
     /*$.ajax({
