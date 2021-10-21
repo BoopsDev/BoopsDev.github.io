@@ -16,7 +16,7 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 };
 
-var linkProducts = $("#details-slider");
+var linkProducts = document.querySelector("#details-slider");
 
 linkProducts.addEventListener("click", function () {
     alert('vczvze');
