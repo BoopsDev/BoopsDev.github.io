@@ -25,6 +25,7 @@ function modifyText() {
 
 const el = document.querySelector("#details-slider");
 if (el) {
+    console.log(el);
     el.addEventListener("click", modifyText, false);
 };
 
