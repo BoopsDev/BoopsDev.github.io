@@ -1,0 +1,374 @@
+/* Maillot Dylan — 06/07/20
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, * {
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 18px;
+	line-height: 1.4;
+	font-family: pelago, sans-serif !important;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1, h2, h3{
+	color: #4d4d4d;
+	line-height: 1.2;
+}
+h1 {
+	font-size: 36px;
+	font-weight: 900;
+}
+h2 {
+	font-size: 30px;
+	font-weight: 600;
+}
+h3 {
+	font-size: 24px;
+	font-weight: 600;
+}
+h4 {
+	font-size: 20px;
+	font-weight: 900;
+	color: #0066CC;
+}
+h5 {
+	font-size: 18px;
+	font-weight: 400;
+}
+h6 {
+	font-size: 16px;
+	font-weight: 400;
+}
+a, a:hover{
+	color: #0066CC;
+	text-decoration: none;
+}
+a .btn, .btn-primary, .btn-red, .btn-red-hollows {
+	background-color: #0066CC;
+	border-color: #0066CC;
+}
+a .btn:hover, .btn-primary:hover, .btn-red:hover, .btn-red-hollows:hover {
+	background-color: #0066CC;
+	border-color: #0066CC;
+}
+body, #loadMessage{
+	background-color: #E6E6E6;
+}
+section .home-products{
+	background: #E6E6E6;
+}
+.loader-quart::after{
+	border-color: #0066CC transparent transparent;
+}
+
+/*-----------------Nav----------------*/
+nav.navbar-default{
+	background-color: #fff;
+}
+nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav.navbar-default.navbar2 .navbar-right > li > a, nav.navbar-default.navbar2 .navbar-right > li > a > span {
+	font-size: 16px !important;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.headerlite .dropdown-menu.dropdown-signin.submenu div.submenucontent > div a{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.navbar-default .nav-menu li.open > a{
+	color: #0066CC !important;
+	transform: scale(110%);
+	font-weight: 900;
+}
+.navbar-default .nav-menu > li > a, .navbar-default .nav-menu .open>a {
+	color: #4D4D4D !important;
+	opacity: 1;
+}
+.navbar-default .nav-search-lang .search.open .dropdown-toggle:hover{
+	background: none;
+}
+
+.navbar-default .nav-menu > li > a:active, .navbar-default .nav-menu > li > a:hover, .navbar-default .nav-menu .open > a:active, .navbar-default .nav-menu .open > a:hover{
+	color: #0066CC !important;
+	transform: scale(110%);
+	font-weight: 900;
+}
+
+.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn-yellow:hover {
+	background-color: #4d4d4d;
+    border-color: #4d4d4d;
+}
+.headerlite.navbar-default .user-dropdown .dropdown-menu{
+	margin-top: 30px;
+}
+.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer, .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer a, .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn-yellow{
+	background-color: #0066CC;
+    border-color: #0066CC;
+}
+.navbar-default .user-dropdown .dropdown-menu.dropdown-signin p {
+	font-size: 0.77em;
+}
+.headerlite.navbar-default.navbar2 .navbar-right.navbar-nav.nav {
+	background: #4d4d4d !important;
+	margin: 0;
+	padding: 0;
+	height: 70px;
+	right: 0;
+	position: absolute;
+}
+.basket-buttons .btn {
+    min-width: 150px;
+    font-size: 12px;
+    padding: 10px 10px 10px 40px;
+}
+.basket-buttons .btn.btn-right{
+	padding: 10px 40px 10px 10px;
+}
+.headerlite.navbar-default.navbar2 .navbar-right.navbar-nav li{
+	display: inline-block;
+	background-color: #4d4d4d;
+	height: 100%;
+}
+.headerlite.navbar-default.navbar2 .navbar-right.navbar-nav li .dropdown-menu li{
+width: 100%;
+}
+.headerlite.navbar-default.navbar2 .navbar-right.navbar-nav li:not(.divider):hover, .navbar-default .dropdown.open .dropdown-toggle:active, .navbar-default .dropdown.open .dropdown-toggle:focus, .navbar-default .dropdown.open .dropdown-toggle:hover {
+	background-color: #0066CC;
+}
+.headerlite.navbar-default.navbar2 .navbar-right.navbar-nav li a.dropdown-toggle{
+	height: auto;
+	line-height: 70px;
+}
+
+.navbar-default .basket .basket-nav-link:before {
+    display: inline-block;
+    left: 0;
+    top: 0;
+	transform: translate(-10px, 3px);
+	position: relative;
+	margin: 10px 0px 0px 10px;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu{
+	left: -100px;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu p{
+	font-size: 0.8em;
+}
+@media (min-width: 768px){
+	.navbar-default .user-dropdown .dropdown-menu {
+		min-width: 275px;
+	}
+	.yamm .dropdown.yamm-fw .dropdown-menu {
+		top: 70px!important;
+	}
+}
+
+.dropdown-menu{
+	border: none;
+	background-color: #F2F2F2;
+}
+.yamm .basket-dropdown .yamm-content .added-cart{
+	color: #4D4D4D;
+}
+.headerlite .dropdown-menu.dropdown-signin.submenu.ng-scope{
+	left: -50%;
+	transform: translateX(5%);
+}
+.dropdown-menu.dropdown-signin.submenu div.submenucontent > div:hover a{
+	color: #fff !important;
+	text-decoration: none;
+}
+.dropdown-menu .dropdown-content .submenucontent div:hover{
+	background-color: #0066CC;
+}
+.dropdown-menu .dropdown-content .submenucontent div{
+	padding: 10px 20px;
+	text-align: center;
+}
+.headerlite .dropdown-menu.dropdown-signin.submenu:before{
+	border: none;
+	content: " ";
+}
+.basket-buttons{
+	padding: 20px 0px;
+}
+
+
+
+/*-----------------Footer----------------*/
+footer{
+	z-index: 98;
+}
+.footer-icons{
+	display: none;
+	visibility: hidden;
+}
+
+.footer-bottom{
+	background: #CCCCCC;
+	padding: 48px 0px;
+}
+.footer-copyright{
+	background-color: #CCCCCC;
+	padding: 48px 0px 96px 0px;
+	border: none;
+	color: #4D4D4D;
+}
+.footer-copyright .pull-right{
+	display: none;
+	visibility: hidden;
+}
+.footer-bottom li, .footer-bottom .footer-bottom-links h4, .footer-bottom .footer-bottom-links ul li a{
+	color: #4d4d4d;
+}
+.footer-bottom .footer-bottom-links ul li a:active, .footer-bottom .footer-bottom-links ul li a:hover, .footer-bottom .footer-bottom-links ul li a:focus{
+	color: #0066CC;
+	text-decoration: none;
+}
+
+.footer-bottom .row>div{
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+/*-----------------Page d'accueil----------------*/
+.slider{
+	background-color: #F2F2F2;
+	margin-top: 60px;
+}
+.slider-text h1{
+	font-size: 36px;
+}
+.slider-text p, .slider-text p span { /*description courte AC*/
+	font-size: 24px;
+	line-height: 1.4;
+}
+.slider .img-responsive{
+	max-height: 600px;
+}
+.home-products-heading{
+	margin-bottom: 36px;
+}
+.slider .container-fluid{
+	padding-bottom: 30px;
+}
+.carousel.product-slider .clearfix>div:last-child{
+	padding-top: 0;
+}
+.checkbox.wishlist .save-wishlist span{
+	background: none !important;
+}
+.checkbox.wishlist .save-wishlist span:hover{
+	background: none !important;
+}
+
+.checkbox.wishlist .save-wishlist .ng-empty~span:before {
+    content: "\f004";
+    font-family: FontAwesome;
+    position:absolute;
+	font-size: 20px;
+	top: 50%;
+	transform: translateY(-60%);
+	color: #fff;
+	border: 1px solid #0066CC;
+	background-color: #0066CC;
+	border-radius: 50%;
+	padding: 10px 14px;
+}
+.checkbox.wishlist .save-wishlist .ng-not-empty~span:before{
+	content: "\f00c";
+    font-family: FontAwesome;
+    position:absolute;
+	font-size: 20px;
+	top: 50%;
+	transform: translateY(-60%);
+	color: #fff;
+	border: 1px solid #0066CC;
+	background-color: #0066CC;
+	border-radius: 50%;
+	padding: 10px 14px;
+}
+.carousel-indicators li.active {
+	border-color : #0066CC;
+}
+.carousel-indicators li.active:before {
+    background-color: #0066CC;
+}
+
+
+.home-products-item .product-item-img .btn{
+	bottom: auto;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.productlink{
+	font-size: 0.88em;
+}
+.home-products-item p{
+	font-size: 0.85em;
+}
+
+/*-----------------Page numéros----------------*/
+
+.breadcrumbs-wrap{
+	background: #CCCCCC;
+}
+.breadcrumb>.active{
+	color: #0066CC;
+}
+.breadcrumb li, .breadcrumb li a{
+	color: #4d4d4d;
+	font-size: 0.77rem;
+}
+.breadcrumb>li+li:before{
+	content: " ";
+	padding: 0px 10px;
+}
+.home-products-heading{
+	margin-top: 72px;	
+}
+
+
+
+
+
+/*-----------------Page produit----------------*/
+
+.product-details:before{
+	background: #0066CC;
+}
+.product-details-text b::after{
+	content: ' ';
+	display: block;
+	margin: 3px 0px;
+}
+.product-details-text b{
+	font-weight: 600;
+	margin: 3px 0px;
+}
+.product-details-text p.”N2”{
+	margin: 3px 0px;
+	text-decoration: underline;
+}
