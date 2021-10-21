@@ -18,19 +18,17 @@ if (!document.getElementById(cssId)) {
 
 var linkProducts = $("#details-slider a");
 
-$(document).ready(function () {
-    linkProducts.on("click", function () {
-        console.log('daze');
-    });
-
-    /*$.ajax({
-        //L'URL de la requête
-        url: "une/url/au/choix",
-
-        //La méthode d'envoi (type de requête)
-        method: "GET",
-
-        //Le format de réponse attendu
-        dataType : "json",
-    })*/
+linkProducts.on("click", function () {
+    console.log('daze');
 });
+
+/*$.ajax({
+    //L'URL de la requête
+    url: "une/url/au/choix",
+
+    //La méthode d'envoi (type de requête)
+    method: "GET",
+
+    //Le format de réponse attendu
+    dataType : "json",
+})*/
