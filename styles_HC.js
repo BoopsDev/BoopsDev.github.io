@@ -18,7 +18,7 @@ if (!document.getElementById(cssId)) {
 
 var linkProducts = $("#details-slider");
 
-$("#details-slider").on("click", "a", function () {
+linkProducts.addEventListener("click", function () {
     alert('vczvze');
     console.log('daze');
 });
