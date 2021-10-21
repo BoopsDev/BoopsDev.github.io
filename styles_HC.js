@@ -16,12 +16,20 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 };
 
-var linkProducts = document.querySelector("#details-slider");
+var linkProducts = document.querySelector("#");
 
 linkProducts.addEventListener("click", function () {
+
+});
+
+
+function modifyText() {
     alert('vczvze');
     console.log('daze');
-});
+}
+
+const el = document.querySelector("#details-slider");
+el.addEventListener("click", modifyText, false);
 
 /*$.ajax({
     //L'URL de la requête
