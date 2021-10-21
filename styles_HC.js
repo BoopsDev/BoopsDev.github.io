@@ -16,11 +16,6 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 };
 
-var linkProducts = document.querySelector("#");
-
-linkProducts.addEventListener("click", function () {
-
-});
 
 
 function modifyText() {
