@@ -24,7 +24,9 @@ function modifyText() {
 }
 
 const el = document.querySelector("#details-slider");
-el.addEventListener("click", modifyText, false);
+if (el) {
+    el.addEventListener("click", modifyText, false);
+};
 
 /*$.ajax({
     //L'URL de la requête
