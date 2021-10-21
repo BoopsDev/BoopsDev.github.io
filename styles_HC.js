@@ -16,7 +16,7 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 };
 
-var linkProducts = $("#details-slider a");
+var linkProducts = $("#details-slider");
 
 linkProducts.on("click", function () {
     console.log('daze');
