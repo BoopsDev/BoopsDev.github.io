@@ -18,7 +18,7 @@ if (!document.getElementById(cssId)) {
 
 var linkProducts = $("#details-slider");
 
-linkProducts.on("click", function () {
+$("#details-slider").on("click", "a", function () {
     console.log('daze');
 });
 
