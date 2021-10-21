@@ -16,8 +16,14 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 };
 
-/*$(document).ready(function(){
-    $.ajax({
+var linkProducts = $("#details-slider a");
+
+$(document).ready(function () {
+    linkProducts.on("click", function () {
+        console.log($(this).text());
+    });
+
+    /*$.ajax({
         //L'URL de la requête
         url: "une/url/au/choix",
 
@@ -26,5 +32,5 @@ if (!document.getElementById(cssId)) {
 
         //Le format de réponse attendu
         dataType : "json",
-    })
-});*/
+    })*/
+});
