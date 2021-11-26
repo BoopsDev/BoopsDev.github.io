@@ -1,8 +1,3 @@
-/*function initialisation() {
-    console.log("Test test");
-}
-
-initialisation();*/
 
 var cssId = 'myCss';  // you could encode the css path itself to generate id..
 if (!document.getElementById(cssId)) {
@@ -16,26 +11,5 @@ if (!document.getElementById(cssId)) {
     head.appendChild(link);
 };
 
-
-
-function modifyText() {
-    alert('vczvze');
-    console.log('daze');
-}
-
-const el = document.getElementById("#details-slider");
-if (el) {
-    console.log(el);
-    el.addEventListener("click", modifyText, false);
-};
-
-/*$.ajax({
-    //L'URL de la requête
-    url: "une/url/au/choix",
-
-    //La méthode d'envoi (type de requête)
-    method: "GET",
-
-    //Le format de réponse attendu
-    dataType : "json",
-})*/
+var iconSearch = $(".navbar-default .search > a");
+iconSearch.css("background-image", "url(https://www.hygienes.net/wp-content/themes/healthandco/img/logo.png)important")
