@@ -12,4 +12,5 @@ if (!document.getElementById(cssId)) {
 };
 
 var iconSearch = $(".navbar-default .search > a");
-iconSearch.css("background-image", "url(https://www.hygienes.net/wp-content/themes/healthandco/img/logo.png) !important")
+console.log(iconSearch.css('background-image'));
+iconSearch.css("background-image", "url(https://www.hygienes.net/wp-content/themes/healthandco/img/logo.png) !important");
