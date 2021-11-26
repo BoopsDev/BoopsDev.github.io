@@ -11,7 +11,7 @@ if (!document.getElementById(cssId)) {
     link.id = cssId;
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = '/styles_HC.css';
+    link.href = 'http://127.0.0.1:5500/styles_HC.css';
     link.media = 'all';
     head.appendChild(link);
 };
