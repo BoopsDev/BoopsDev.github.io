@@ -221,7 +221,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn, .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer p{
 	font-style: normal;
 	font-size: 0.8em;
-	font-family: 600;
+	font-weight: 600;
 }
 
 /*-----------------Footer----------------*/
