@@ -183,7 +183,7 @@ width: 100%;
 	color: #fff !important;
 	text-decoration: none;
 }
-.dropdown-menu .dropdown-content .submenucontent div:hover{
+.dropdown-menu .dropdown-content .submenucontent div:hover, .navbar-default .user-dropdown .dropdown-menu li a:hover{
 	background-color: #0066CC;
 }
 .dropdown-menu .dropdown-content .submenucontent div{
@@ -197,7 +197,29 @@ width: 100%;
 .basket-buttons{
 	padding: 20px 0px;
 }
-
+.basket-detail .product-quantity, .basket-price{
+    position: initial;
+}
+.basket-detail:before, .basket-detail:after{
+    display: none;
+}
+.basket-price .the-price .price-close{
+    right: 10px;
+}
+.user-dropdown .dropdown-content .col-xs-6,
+.user-dropdown .dropdown-menu.dropdown-signin a,
+.user-dropdown .dropdown-menu.dropdown-signin p,
+.user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn-yellow{
+    width: 100%;
+    text-align: center;
+}
+.user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer a{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.user-dropdown .dropdown-menu li{
+	background-color: #F2F2F2;
+}
 
 
 /*-----------------Footer----------------*/
