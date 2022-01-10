@@ -135,7 +135,8 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	height: 100%;
 }
 .headerlite.navbar-default.navbar2 .navbar-right.navbar-nav li .dropdown-menu li{
-width: 100%;
+	width: 100%;
+	background-color: #F2F2F2;
 }
 .headerlite.navbar-default.navbar2 .navbar-right.navbar-nav li:not(.divider):hover, .navbar-default .dropdown.open .dropdown-toggle:active, .navbar-default .dropdown.open .dropdown-toggle:focus, .navbar-default .dropdown.open .dropdown-toggle:hover {
 	background-color: #0066CC;
@@ -216,9 +217,6 @@ width: 100%;
 .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer a{
     font-size: 1.2em;
     text-decoration: none;
-}
-.user-dropdown .dropdown-menu li{
-	background-color: #F2F2F2;
 }
 
 
