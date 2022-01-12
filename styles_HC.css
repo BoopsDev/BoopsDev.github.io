@@ -52,6 +52,7 @@ a, a:hover{
 a .btn, .btn-primary, .btn-red, .btn-red-hollows {
 	background-color: #0066CC;
 	border-color: #0066CC;
+	font-size: 16px;
 }
 a .btn:hover, .btn-primary:hover, .btn-red:hover, .btn-red-hollows:hover {
 	background-color: #0066CC;
