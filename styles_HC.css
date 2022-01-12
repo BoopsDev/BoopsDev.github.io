@@ -125,10 +125,10 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 .basket-buttons .btn {
     min-width: 150px;
     font-size: 12px;
-    padding: 10px 10px 10px 40px;
+    padding: 15px 15px 15px 50px;
 }
 .basket-buttons .btn.btn-right{
-	padding: 10px 40px 10px 10px;
+	padding: 15px 50px 15px 15px;
 }
 .headerlite.navbar-default.navbar2 .navbar-right.navbar-nav li{
 	display: inline-block;
@@ -196,9 +196,6 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	border: none;
 	content: " ";
 }
-.basket-buttons{
-	padding: 20px 0px;
-}
 .basket-detail .product-quantity, .basket-price{
     position: initial;
 }
@@ -226,9 +223,12 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 }
 
 
-/*------------------Mon compte---------------*/
+/*------------------Mon compte/Panier---------------*/
 .profile-delivery-address h2, .profile-details h2{
 	color: #0066CC;
+}
+.basket-detail h3{
+	color: #4D4D4D;
 }
 
 /*-----------------Footer----------------*/
