@@ -45,13 +45,13 @@ h6 {
 	font-size: 16px;
 	font-weight: 400;
 }
-a, a:hover{
+a, a:active, a:hover, a:focus, .error-page .error-page-foot .btn, .coming-soon .coming-soon-foot .btn, .coming-soon .coming-soon-foot .social-links li a:hover, .home-products-item .old-price .taux-remise, .products-heading ul li a:hover, .product-details-right .out-of-stock, .product-listing-item .media-body .price, .product-listing-item .media-body .price2, .profile-delivery-address h2, .profile-details h2, .payment-methods h2, .subscription-table tbody tr td .price, .profiltable .profiltr .price, .invoices-table tbody tr td .id, .profiltr span.cadeau-icon, .profiltable .profiltr .id, .basket-price .the-price p.old-price, .basket-total .total-price .the-total-price p, .delivery-address h2, .delivery-address .cadeau-checkbox label, .delivery-panel .panel-item .price span, .delivery-panel .panel-item .old-price, .delivery-panel .panel-item.piecejointe .add-pj-ok, .payment-total .the-total, .styling h2, .yamm .yamm-dropdown .dropdown-menu ul li a:hover, .yamm .basket-dropdown .yamm-content .added-cart, .delivery-total .the-total, .basket-total .the-total{
 	color: #0066CC;
 	text-decoration: none;
 }
 a .btn, .btn-primary, .btn-red, .btn-red-hollows {
-	background-color: #0066CC;
-	border-color: #0066CC;
+	background-color: #4D4D4D;
+	border-color: #4D4D4D;
 	font-size: 16px;
 }
 a .btn:hover, .btn-primary:hover, .btn-red:hover, .btn-red-hollows:hover {
