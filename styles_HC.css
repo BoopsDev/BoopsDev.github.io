@@ -99,7 +99,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	font-weight: 900;
 }
 
-.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn-yellow:hover {
+.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn-yellow {
 	background-color: #4d4d4d;
     border-color: #4d4d4d;
 }
@@ -271,10 +271,10 @@ footer{
 }
 .slider-text h1{
 	font-size: 36px;
-	font-weight: 400;
+	font-weight: 600;
 }
 .slider-text p, .slider-text p span { /*description courte AC*/
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 1.4;
 	margin-top: 0px;
 }
