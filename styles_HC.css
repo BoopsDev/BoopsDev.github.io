@@ -224,6 +224,12 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	font-weight: 600;
 }
 
+
+/*------------------Mon compte---------------*/
+.profile-delivery-address h2, .profile-details h2{
+	color: #0066CC;
+}
+
 /*-----------------Footer----------------*/
 footer{
 	z-index: 98;
