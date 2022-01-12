@@ -99,16 +99,16 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	font-weight: 900;
 }
 
-.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn-yellow {
-	background-color: #4d4d4d;
-    border-color: #4d4d4d;
+.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn-yellow:hover {
+	background-color: #0066CC;
+    border-color: #0066CC;
 }
 .headerlite.navbar-default .user-dropdown .dropdown-menu{
 	margin-top: 30px;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer, .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer a, .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn-yellow{
-	background-color: #0066CC;
-    border-color: #0066CC;
+	background-color: #4d4d4d;
+    border-color: #4d4d4d;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin p {
 	font-size: 0.77em;
@@ -271,7 +271,7 @@ footer{
 }
 .slider-text h1{
 	font-size: 36px;
-	font-weight: 600;
+	font-weight: 400;
 }
 .slider-text p, .slider-text p span { /*description courte AC*/
 	font-size: 22px;
