@@ -208,7 +208,9 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
     width: 100%;
     text-align: center;
 }
-
+.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer{
+	background-color: none;
+}
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn{
 	font-style: normal;
 	font-size: 0.8em;
