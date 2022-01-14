@@ -208,8 +208,8 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
     width: 100%;
     text-align: center;
 }
-.navbar-default .user-dropdown .dropdown-menu.dropdown-signin *{
-	font-size: 12px !important;
+.navbar-default .nav.navbar-right .user-dropdown .dropdown-menu.dropdown-signin *{
+	font-size: 12px;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn{
 	font-style: normal;
