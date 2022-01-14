@@ -220,6 +220,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer a{
 	color: #fff;
+	background: none;
 	padding: 3px;
 	font-style: normal;
 	font-weight: 400;
