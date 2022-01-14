@@ -211,11 +211,11 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn{
 	font-style: normal;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: 600;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer{
-	background: #4D4D4D;
+	background: #2c2c2c;
 	padding: 0;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer p{
@@ -229,12 +229,12 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	color: #fff;
 	background: none;
 	font-style: normal;
-	font-weight: 400;
-	font-size: 1.2em;
+	font-weight: 600;
+	font-size: 1.5em;
 	line-height: 2.5em;
     text-decoration: none;
 }
-.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer a:hover{
+.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer:hover{
 	background: #0066CC;
 }
 .nav.navbar-right .user-dropdown .dropdown-menu.dropdown-signin *{
