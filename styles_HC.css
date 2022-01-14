@@ -213,7 +213,6 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	font-style: normal;
 	font-size: 1.5em;
 	font-weight: 600;
-	margin-bottom: 12px;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer{
 	background: #4d4d4d;
@@ -240,6 +239,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 }
 .nav.navbar-right .user-dropdown .dropdown-menu.dropdown-signin *{
 	font-size: 12px;
+	margin: 12px 0px;
 }
 /*------------------Mon compte/Panier---------------*/
 .profile-delivery-address h2, .profile-details h2{
