@@ -218,22 +218,22 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	background: #4D4D4D;
 	padding: 0;
 }
-.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer a{
-	color: #fff;
-	background: none;
-	padding: 3px;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.2em;
-    text-decoration: none;
-}
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer p{
 	background-color: #fff;
 	color: #4D4D4D;
 	font-size: 0.65em;
 	font-style: normal;
 	font-weight: 400;
-	padding: 3px;
+	padding: 5px 0px;
+}
+.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer a{
+	color: #fff;
+	background: none;
+	padding: 10px 0px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2em;
+    text-decoration: none;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin p {
 	font-size: 0.77em;
