@@ -209,7 +209,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
     text-align: center;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer{
-	background-color: none;
+	background: none;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn{
 	font-style: normal;
@@ -224,7 +224,6 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	font-weight: 400;
 	font-size: 1.2em;
     text-decoration: none;
-
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer p{
 	background-color: none;
