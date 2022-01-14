@@ -215,12 +215,12 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	font-weight: 600;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer{
-	background: #2c2c2c;
+	background: #4d4d4d;
 	padding: 0;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer p{
 	background-color: #fff;
-	color: #4D4D4D;
+	color: #2c2c2c;
 	font-style: normal;
 	font-weight: 400;
 	padding: 5px 0px;
