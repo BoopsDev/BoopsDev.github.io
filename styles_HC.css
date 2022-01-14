@@ -220,7 +220,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer a{
 	color: #fff;
-	width: 100%;
+	padding: 3px;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 1.2em;
@@ -229,9 +229,10 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer p{
 	background-color: #fff;
 	color: #4D4D4D;
-	font-size: 0.6em;
+	font-size: 0.65em;
 	font-style: normal;
 	font-weight: 400;
+	padding: 3px;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin p {
 	font-size: 0.77em;
