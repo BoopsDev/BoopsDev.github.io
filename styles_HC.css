@@ -213,6 +213,10 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	font-style: normal;
 	font-size: 1.5em;
 	font-weight: 600;
+	margin: 6px 0px;
+}
+.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .header-cookies-info{
+	margin: 6px 0px;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer{
 	background: #4d4d4d;
@@ -223,7 +227,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	color: #2c2c2c;
 	font-style: normal;
 	font-weight: 400;
-	padding: 5px 0px;
+	padding: 6px 0px;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer a{
 	color: #fff;
@@ -239,7 +243,6 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 }
 .nav.navbar-right .user-dropdown .dropdown-menu.dropdown-signin *{
 	font-size: 12px;
-	margin: 12px 0px;
 }
 /*------------------Mon compte/Panier---------------*/
 .profile-delivery-address h2, .profile-details h2{
