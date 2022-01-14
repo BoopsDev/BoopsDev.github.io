@@ -5,7 +5,7 @@ if (!document.getElementById(cssId)) {
     link.id = cssId;
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'http://127.0.0.1:5500/NewCSS.css';
+    link.href = 'http://127.0.0.1:5500/BoopsDev.github.io/NewCSS.css';
     link.media = 'all';
     head.appendChild(link);
 };
