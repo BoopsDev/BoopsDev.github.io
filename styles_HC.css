@@ -67,6 +67,10 @@ section .home-products{
 .loader-quart::after{
 	border-color: #0066CC transparent transparent;
 }
+.row{
+    margin: 0;
+}
+
 
 /*-----------------Nav----------------*/
 nav.navbar-default{
@@ -97,7 +101,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 .navbar-default .nav-menu > li > a:active, .navbar-default .nav-menu > li > a:hover, .navbar-default .nav-menu .open > a:active, .navbar-default .nav-menu .open > a:hover{
 	color: #0066CC !important;
 	transform: scale(110%);
-	font-weight: 900;
+	font-weight: 600;
 }
 .headerlite.navbar-default .user-dropdown .dropdown-menu{
 	margin-top: 30px;
@@ -216,7 +220,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	margin: 6px 0px;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .header-cookies-info{
-	margin: 6px 0px;
+	margin: 12px 0px;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer{
 	background: #4d4d4d;
@@ -285,6 +289,37 @@ footer{
 
 .footer-bottom .row>div{
 	margin-bottom: 0px;
+}
+.footer-bottom .row .col-sm-8{
+    width: 100%;
+    padding: 0;
+}
+.footer-bottom .row>div.col-xs-4{
+    width: calc(100% / 3);
+    padding: 0px 10px;
+    margin: 0;
+}
+
+.footer-bottom ul li a{
+    font-family: pelago, sans-serif;
+    font-size: 16px;
+}
+.footer-bottom h4{
+    padding-bottom: 6px;
+}
+.footer-bottom li{
+    list-style: none;
+    padding: 3px 0px;
+}
+.footer-bottom li::before{
+    content: "\2022";
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 0.8em;
+}
+.footer-copyright p{
+    font-size: 0.66em;
 }
 
 
