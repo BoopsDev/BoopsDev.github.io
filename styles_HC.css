@@ -208,9 +208,6 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
     width: 100%;
     text-align: center;
 }
-.navbar-default .nav.navbar-right .user-dropdown .dropdown-menu.dropdown-signin *{
-	font-size: 12px;
-}
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn{
 	font-style: normal;
 	font-size: 1.2em;
@@ -238,6 +235,9 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer a:hover{
 	background: #0066CC;
+}
+.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer *{
+	font-size: 12px;
 }
 
 /*------------------Mon compte/Panier---------------*/
