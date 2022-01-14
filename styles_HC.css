@@ -213,6 +213,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	font-style: normal;
 	font-size: 1.5em;
 	font-weight: 600;
+	margin-bottom: 12px;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer{
 	background: #4d4d4d;
