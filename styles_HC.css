@@ -208,16 +208,17 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
     width: 100%;
     text-align: center;
 }
-.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer{
-	background: none;
-}
+
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-content .btn{
 	font-style: normal;
 	font-size: 0.8em;
 	font-weight: 600;
 }
+.navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer{
+	background: #4D4D4D;
+	padding: 0;
+}
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer a{
-	background-color: #4d4d4d;
 	color: #fff;
 	width: 100%;
 	font-style: normal;
@@ -226,7 +227,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
     text-decoration: none;
 }
 .navbar-default .user-dropdown .dropdown-menu.dropdown-signin .dropdown-footer p{
-	background-color: none;
+	background-color: #fff;
 	color: #4D4D4D;
 	font-size: 0.6em;
 	font-style: normal;
