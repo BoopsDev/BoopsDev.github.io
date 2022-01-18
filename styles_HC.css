@@ -67,9 +67,7 @@ section .home-products{
 .loader-quart::after{
 	border-color: #0066CC transparent transparent;
 }
-.row{
-    margin: 0;
-}
+
 
 
 /*-----------------Nav----------------*/
@@ -321,7 +319,9 @@ footer{
 .footer-copyright p{
     font-size: 0.66em;
 }
-
+.footer-bottom .row{
+    margin: 0;
+}
 
 
 
