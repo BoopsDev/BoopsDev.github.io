@@ -251,10 +251,13 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 .basket-detail h3{
 	color: #4D4D4D;
 }
-.basket-total .total-price .the-total-price h3{
+.basket-total .total-price .the-total-price h3, .basket-price .the-price h3{
 	font-size: 16px;
 	font-weight: 400;
 	color: #2c2c2c;
+}
+.basket-price .the-price p{
+	color: #0066CC;
 }
 .basket-total .col-sm-8{
 	width: 0;
