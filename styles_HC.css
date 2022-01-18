@@ -171,6 +171,8 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 .dropdown-menu{
 	border: none;
 	background-color: #F2F2F2;
+	top: 70px;
+	padding: 0;
 }
 .yamm .basket-dropdown .yamm-content .added-cart{
 	color: #4D4D4D;
