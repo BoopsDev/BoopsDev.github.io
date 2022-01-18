@@ -261,10 +261,11 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 }
 .basket-total .col-sm-8{
 	width: 0;
+	padding: 0;
 }
 .basket-total .total-price{
 	padding: 0;
-	left: 182px;
+	left: 197px;
 }
 .basket-total .total-price .the-total-price{
 	max-width: auto;
