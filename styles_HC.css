@@ -171,7 +171,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 .headerlite .dropdown-menu{
 	border: none;
 	background-color: #F2F2F2;
-	top: 70px;
+	top: 45px;
 	padding: 0;
 }
 .yamm .basket-dropdown .yamm-content .added-cart{
@@ -251,6 +251,25 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 .basket-detail h3{
 	color: #4D4D4D;
 }
+.basket-total .total-price .the-total-price h3{
+	font-size: 16px;
+	font-weight: 400;
+	color: #2c2c2c;
+}
+.basket-total .col-sm-8{
+	width: 0;
+}
+.basket-total .total-price{
+	padding: 0;	
+}
+.basket-total .total-price .the-total-price{
+	max-width: auto;
+	margin: 0;
+	top: 0;
+	transform: none;
+	-webkit-transform: none;
+}
+
 
 /*-----------------Footer----------------*/
 footer{
