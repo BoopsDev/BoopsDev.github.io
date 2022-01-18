@@ -168,7 +168,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	}
 }
 
-.dropdown-menu{
+.headerlite .dropdown-menu{
 	border: none;
 	background-color: #F2F2F2;
 	top: 70px;
