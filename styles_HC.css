@@ -177,10 +177,6 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 .yamm .basket-dropdown .yamm-content .added-cart{
 	color: #4D4D4D;
 }
-.headerlite .dropdown-menu.dropdown-signin.submenu.ng-scope{
-	left: -50%;
-	transform: translateX(5%);
-}
 .dropdown-menu.dropdown-signin.submenu div.submenucontent > div:hover a{
 	color: #fff !important;
 	text-decoration: none;
