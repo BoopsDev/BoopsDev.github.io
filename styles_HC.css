@@ -354,6 +354,9 @@ footer{
 	background-color: #F2F2F2;
 	margin-top: 60px;
 }
+.carousel.product-slider .clearfix>div:first-child, .slider-text{
+	padding-top: 72px;
+}
 .slider-text h1{
 	font-size: 36px;
 	font-weight: 400;
