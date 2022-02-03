@@ -278,6 +278,14 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	transform: none;
 	-webkit-transform: none;
 }
+.subscription-table tbody tr td .price {
+	font-size: 18px;
+}
+	.subscription-table tbody tr td .price span{
+	display: inline-block;
+	color: #0066CC;
+	font-weight: 600;
+}
 
 
 /*-----------------Footer----------------*/
