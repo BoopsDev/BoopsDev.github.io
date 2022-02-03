@@ -242,8 +242,12 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	background: #0066CC;
 }
 .nav.navbar-right .user-dropdown .dropdown-menu.dropdown-signin *{
-	font-size: 12px;
+	font-size: 13px;
 }
+.header-cookies-info p.ng-binding{
+	margin-top: 12px;
+}
+
 /*------------------Mon compte/Panier---------------*/
 .profile-delivery-address h2, .profile-details h2{
 	color: #0066CC;
@@ -380,6 +384,9 @@ footer{
 .carousel.product-slider .clearfix>div:last-child{
 	padding-top: 0;
 }
+.checkbox.wishlist{
+	top: inherit;
+}
 .checkbox.wishlist .save-wishlist span{
 	background: none !important;
 }
@@ -403,15 +410,13 @@ footer{
 .checkbox.wishlist .save-wishlist .ng-not-empty~span:before{
 	content: "\f00c";
     font-family: FontAwesome;
-    position:absolute;
+    position: relative;
 	font-size: 20px;
 	top: 50%;
-	transform: translateY(-60%);
 	color: #fff;
-	border: 1px solid #0066CC;
 	background-color: #0066CC;
 	border-radius: 50%;
-	padding: 10px 14px;
+	padding: 14px 14px;
 }
 .carousel-indicators li.active {
 	border-color : #0066CC;
