@@ -498,8 +498,7 @@ footer{
 	margin: 3px 0px;
 }
 .product-details-text p.”N2”{
-	margin: 3px 0px;
-	text-decoration: underline;
+	margin: 3px 0px 0px 12px;
 }
 .product-radios .radio .radio-red>input:checked+span{
 	background-color: #0066CC;
