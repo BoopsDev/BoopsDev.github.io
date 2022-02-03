@@ -278,7 +278,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 	transform: none;
 	-webkit-transform: none;
 }
-.subscription-table tbody tr td .price {
+.subscription-table tbody tr td .price, .subscription-table tbody tr td h3 {
 	font-size: 18px;
 }
 	.subscription-table tbody tr td .price span{
