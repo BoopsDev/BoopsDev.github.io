@@ -244,7 +244,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 .nav.navbar-right .user-dropdown .dropdown-menu.dropdown-signin *{
 	font-size: 13px;
 }
-.header-cookies-info p.ng-binding{
+.header-cookies-info a.ng-binding{
 	margin-top: 12px;
 }
 
