@@ -397,15 +397,13 @@ footer{
 .checkbox.wishlist .save-wishlist .ng-empty~span:before {
     content: "\f004";
     font-family: FontAwesome;
-    position:absolute;
+    position: relative;
 	font-size: 20px;
 	top: 50%;
-	transform: translateY(-60%);
 	color: #fff;
-	border: 1px solid #0066CC;
 	background-color: #0066CC;
 	border-radius: 50%;
-	padding: 10px 14px;
+	padding: 14px 14px;
 }
 .checkbox.wishlist .save-wishlist .ng-not-empty~span:before{
 	content: "\f00c";
