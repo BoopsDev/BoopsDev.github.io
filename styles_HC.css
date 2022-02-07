@@ -281,7 +281,7 @@ nav.navbar-default .nav-menu > li > a, nav.navbar-default .nav-menu .open>a, nav
 .subscription-table tbody tr td .price, .subscription-table tbody tr td h3 {
 	font-size: 18px;
 }
-	.subscription-table tbody tr td .price span{
+.subscription-table tbody tr td .price span{
 	display: inline-block;
 	color: #0066CC;
 	font-weight: 600;
@@ -392,13 +392,13 @@ footer{
 .carousel.product-slider .clearfix>div:last-child{
 	padding-top: 0;
 }
-.checkbox.wishlist{
+.carousel-inner .checkbox.wishlist{
 	top: inherit;
 }
-.checkbox.wishlist .save-wishlist span{
+.carousel-inner .checkbox.wishlist .save-wishlist span{
 	background: none !important;
 }
-.checkbox.wishlist .save-wishlist span:hover{
+.carousel-inner .checkbox.wishlist .save-wishlist span:hover{
 	background: none !important;
 }
 
