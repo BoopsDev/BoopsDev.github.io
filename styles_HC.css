@@ -401,13 +401,19 @@ footer{
 .carousel-inner .checkbox.wishlist .save-wishlist span:hover{
 	background: none !important;
 }
+.carousel-inner .checkbox.wishlist .save-wishlist .ng-empty~span:before {
+	position: relative;
+	top: 50%;
+}
 
 .checkbox.wishlist .save-wishlist .ng-empty~span:before {
     content: "\f004";
     font-family: FontAwesome;
-    position: relative;
+    position: absolute;
 	font-size: 20px;
-	top: 50%;
+	line-height: 20px;
+	top: 0%;
+	transform: translateY(-5%);
 	color: #fff;
 	background-color: #0066CC;
 	border-radius: 50%;
